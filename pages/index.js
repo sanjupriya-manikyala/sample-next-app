@@ -1,7 +1,12 @@
-import LoginPage from './login';
+// pages/index.js
+import Login from './login';
 
-const HomePage = () => {
-  return <LoginPage />;
+const Home = () => {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 };
 
-export default HomePage;
+export default Home;
